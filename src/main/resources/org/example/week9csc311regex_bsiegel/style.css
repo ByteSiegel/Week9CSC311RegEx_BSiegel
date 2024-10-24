@@ -1,0 +1,50 @@
+/* style.css */
+
+/* Set the default font and background color for the application */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f0f8ff; /* AliceBlue */
+}
+
+/* Style for labels */
+.label {
+    -fx-font-size: 14px;
+}
+
+/* Style for input fields */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #b0c4de; /* LightSteelBlue */
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+}
+
+/* Style for invalid input fields */
+.text-field.invalid-field {
+    -fx-border-color: red;
+}
+
+/* Style for the "Add" button */
+.button {
+    -fx-background-color: #4682b4; /* SteelBlue */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 3px;
+}
+
+/* Disabled button style */
+.button:disabled {
+    -fx-background-color: #a9a9a9; /* DarkGray */
+}
+
+/* Style for validation labels */
+.validation-label {
+    -fx-font-size: 12px;
+}
+
+/* Style for success message */
+.success-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #2e8b57; /* SeaGreen */
+}
